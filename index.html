@@ -8,19 +8,76 @@
     <script src="js/calc.js"></script>
   </head>
   <body>
-    <main class="container">
+    <header class="container">
       <h1>Calculator</h1>
-      <form id="add">
-        <div class="form-group">
-          <label for="add1">1st number:</label>
-          <input id="add1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="add2">2nd number:</label>
-          <input id="add2" class="form-control" type="text">
-        </div>
-        <button type="submit" class="btn">Add!</button>
-      </form>
+    </header>
+
+    <main class="container">
+
+      <section>
+        <h3>Addition Functionality</h3>
+        <form id="add">
+          <div class="form-group">
+            <label for="add1">1st number:</label>
+            <input id="add1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="add2">2nd number:</label>
+            <input id="add2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Add!</button>
+        </form>
+        <div id="add" class="output"></div>
+      </section>
+
+      <section>
+        <h3>Subtraction Functionality</h3>
+        <form id="sub">
+          <div class="form-group">
+            <label for="sub1">1st number:</label>
+            <input id="sub1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="sub2">2nd number:</label>
+            <input id="sub2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Subtract!</button>
+        </form>
+        <div id="sub" class="output"></div>
+      </section>
+
+      <section>
+        <h3>Multiplication Functionality</h3>
+        <form id="mul">
+          <div class="form-group">
+            <label for="mul1">1st number:</label>
+            <input id="mul1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="mul2">2nd number:</label>
+            <input id="mul2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Multiply!</button>
+        </form>
+        <div id="mul" class="output"></div>
+      </section>
+
+      <section>
+        <h3>Division Functionality</h3>
+        <form id="div">
+          <div class="form-group">
+            <label for="div1">1st number:</label>
+            <input id="div1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="div2">2nd number:</label>
+            <input id="div2" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Divide!</button>
+        </form>
+        <div id="div" class="output"></div>
+      </section>
+
     </main>
   </body>
 </html>
