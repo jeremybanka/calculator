@@ -1,17 +1,17 @@
-if(true) {
+const someStringVariable = '...'
+
+if(someStringVariable === 'somePossibility') {
   // this runs
 }
 
-const someStringVariable = '...'
-
 switch(someStringVariable) {
   case 'somePossibility':
-    // this might run
+    // code here runs if someStringVariable === 'somePossibility'
     break
   case 'someOtherPossibility':
-    // this might run
+    // code here runs if someStringVariable === 'someOtherPossibility'
     break
   default:
-    // if none of the possibilities above === someStringVariable
+    // if none of the cases above === someStringVariable
     break
 }
